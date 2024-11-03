@@ -48,8 +48,11 @@ MENU_LINKS = LINKS
 DESCRIPTION = "Comunidad de lenguaje de programación Python en Málaga, España. Eventos, charlas, talleres y mucho más."
 KEYWORDS = ("Python, Málaga, Malaga, España, Spain, Programación, Desarrollo Software, Comunidad, Charlas, Talleres, "
             "Eventos")
+
+STATIC_PATHS = ["images", "other"]
 EXTRA_PATH_METADATA = {
     "images/favicon.ico": {"path": "favicon.ico"},
+    "other/CNAME": {"path": "CNAME"},
 }
 
 # SEO configuration
