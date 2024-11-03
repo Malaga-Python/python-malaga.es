@@ -16,7 +16,8 @@ Abiertos a todo el mundo
 ========================
 No importa tu nivel de conocimientos sobre Python, somos una comunidad abierta tanto a principiantes como a expertos.
 Estamos encantados de recibir a todo aquel que quiera aprender, compartir o simplemente charlar sobre el lenguaje y
-sus tecnologías asociadas.
+sus tecnologías asociadas. Todos nuestros eventos son abiertos y sin ánimo de lucro, sin coste salvo que se indique lo
+contrario.
 
 Eventos y actividades
 =====================
