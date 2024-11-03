@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+    {% block content %}
+    <div class="ui grid intro">
+        <div class="row">
+            <div class="column center aligned">
+                {% if WELCOME_MESSAGE %}
+                <h1>{{ WELCOME_MESSAGE }}</h1>
+                {% else %}
+                <h1>Welcome to {{ SITENAME }}</h1>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="ui grid main container">
+        <div class="sixteen wide mobile eight wide tablet ten wide computer column">
+            <div class="row">
+                <h2>Nuestra comunidad</h2>
+                <p>
+                    Somos la comunidad de Python Málaga, un grupo de entusiastas del
+                    <a href="https://www.python.org/">lenguaje de programación Python</a> del
+                    <a href="https://es.wikipedia.org/wiki/M%C3%A1laga">sur de España</a>, que se reúnen para compartir
+                    conocimientos y experiencias. Si te interesa Python, ya seas un experto o un principiante, eres más que
+                    bienvenido.
+                </p>
+                <p>
+                    Realizamos <a href="https://www.meetup.com/es-ES/python_malaga/">meetups</a> de forma periódica,
+                    donde se realizan charlas, talleres y eventos de networking. Puedes encontrar los eventos que
+                    realizamos en nuestra cuenta de <a href="https://twitter.com/python_malaga">Twitter</a> o en nuestras
+                    otras redes sociales.
+                </p>
+                <p>
+                    Puedes hablar con nosotros y con el resto de la comunidad en nuestro grupo de
+                    <a href="https://t.me/python_malaga">Telegram</a>. ¿Te interesa colaborar con nosotros? ¿Tienes
+                    alguna charla preparada? ¡No dudes en escribir en el grupo!
+                </p>
+            </div>
+            <div class="photos row">
+                <img src="theme/images/photo1.jpg" style="width: 48%; margin-right: 1%" alt="Foto evento 1" />
+                <img src="theme/images/photo2.jpg" style="width: 48%; margin-left: 1%" alt="Foto evento 2" />
+            </div>
+        </div>
+
+        <div class="sixteen wide mobile eight wide tablet six wide computer column">
+            <a class="twitter-timeline" data-height="600" data-dnt="true" data-theme="light" href="https://twitter.com/python_malaga?ref_src=twsrc%5Etfw">Tweets by python_malaga</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    {% endblock %}

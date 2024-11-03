@@ -1,0 +1,53 @@
+{% block footer %}
+<div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+        <div class="ui stackable inverted divided grid">
+            <div class="eight wide column">
+                <h4 class="ui inverted header">Redes sociales</h4>
+                <div class="ui inverted link list horizontal">
+                    <a href="https://www.meetup.com/es-ES/python_malaga/" class="item" title="Meetup">
+                        <img src="/theme/images/networks/meetup.png" alt="Meetup" style="width: 48px; height: 48px;">
+                    </a>
+                    <a href="https://twitter.com/python_malaga" class="item" title="Twitter">
+                        <img src="/theme/images/networks/twitter.png" alt="Twitter" style="width: 48px; height: 48px;">
+                    </a>
+                    <a href="https://t.me/python_malaga" class="item" title="Telegram">
+                        <img src="/theme/images/networks/telegram.png" alt="Telegram" style="width: 48px; height: 48px;">
+                    </a>
+                    <a href="https://www.linkedin.com/groups/13110576/" class="item" title="Linkedin">
+                        <img src="/theme/images/networks/linkedin.png" alt="Linkedin" style="width: 48px; height: 48px;">
+                    </a>
+                    <a href="https://github.com/malaga-python" class="item" title="GitHub">
+                        <img src="/theme/images/networks/github.png" alt="GitHub" style="width: 48px; height: 48px;">
+                    </a>
+                    <a href="https://bsky.app/profile/pythonmalaga.bsky.social" class="item" title="Bluesky">
+                        <img src="/theme/images/networks/bluesky.png" alt="Bluesky" style="width: 48px; height: 48px;">
+                    </a>
+                    <a href="https://mastodon.social/@python_malaga" class="item" title="Mastodon">
+                        <img src="/theme/images/networks/mastodon.png" alt="Mastodon" style="width: 48px; height: 48px;">
+                    </a>
+                </div>
+            </div>
+            <div class="eight wide column">
+                {% block extra_footer_content %}
+                <h4 class="ui inverted header">Acerca de</h4>
+                <p>Python Málaga es un grupo de <a href="https://es.python.org/">Python España</a>.</p>
+                <p>Todos los derechos reservados.</p>
+                {% endblock %}
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        {% if LOGOPATH %}
+        <img class="ui centered mini image" src="{{ SITEURL }}{{ LOGOPATH }}">
+        {% else %}
+        <img class="ui centered mini image" src="{{ SITEURL }}/theme/images/logo.png">
+        {% endif %}
+        <div class="ui horizontal inverted small divided link list">
+            {% for item, url in LINKS %}
+            <a href="{{ url }}" class="item">{{ item }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
