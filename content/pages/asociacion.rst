@@ -4,7 +4,8 @@ Asociación
 :date: 2024-11-02 22:00
 :slug: asociacion
 :authors: Nekmo
-:summary: Más información sobre la asociación de Python Málaga.
+:description: Más información sobre la asociación del lenguaje de programación Python en Málaga, España.
+:keywords: Python, Málaga, España, Asociación, Sobre Nosotros, Acerca de, Quiénes Somos, Python Málaga, Python España
 
 La asociación **Python Málaga** (España) se ha creado con el propósito de servir como punto de encuentro a aquellos
 interesados en `el lenguage de programación Python`_ y sus aplicaciones. Nos encargamos de organizar eventos, charlas,

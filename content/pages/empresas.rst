@@ -4,7 +4,8 @@ Empresas Python Friendly
 :date: 2024-11-02 22:00
 :slug: empresas
 :authors: Nekmo
-:summary: Más información sobre las empresas asociadas a Python Málaga.
+:description: Empresas de la provincia de Málaga que usan Python, y que colaboran con la comunidad de Python Málaga.
+:keywords: Empresas, Python, Málaga, Colaboración, Patrocinio
 
 Aquí se listan empresas de la provincia de Málaga que usan principalmente Python en el desarrollo de sus productos o
 servicios. Si deseas que tu empresa aparezca en esta lista, ponte en contacto con nosotros a través de `Telegram`_ o

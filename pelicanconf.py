@@ -45,6 +45,10 @@ THEME = "theme"
 
 MENU_LINKS = LINKS
 
+DESCRIPTION = "Comunidad de lenguaje de programación Python en Málaga, España. Eventos, charlas, talleres y mucho más."
+KEYWORDS = ("Python, Málaga, Malaga, España, Spain, Programación, Desarrollo Software, Comunidad, Charlas, Talleres, "
+            "Eventos")
+
 # SEO configuration
 # SEO_REPORT = True  # SEO report is enabled by default
 # SEO_ENHANCER = True  # SEO enhancer is disabled by default

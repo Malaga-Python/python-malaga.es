@@ -4,7 +4,8 @@ Código de Conducta
 :date: 2024-11-02 22:00
 :slug: codigo-conducta
 :authors: Nekmo
-:summary: Código de conducta de Python Málaga.
+:description: Código de conducta de la asociación Python Málaga.
+:keywords: Código de Conducta, Python Málaga, Python España, Conducta, Participantes
 
 Todos los asistentes y participantes en los eventos de Python Malága deberán acatar el presente código de conducta,
 el cual complementa al que puede encontrarse en la página web de
