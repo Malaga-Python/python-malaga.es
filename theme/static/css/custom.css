@@ -136,3 +136,12 @@ body {
         display: none;
     }
 }
+
+/* Bluesky timeline changes */
+body #embedbsky-com-timeline-embed {
+    overflow-y: auto;
+}
+body #embedbsky-com-timeline-embed .header, body #embedbsky-com-timeline-embed .handle,
+body #embedbsky-com-timeline-embed .postcontainer .postbox .col.text .icons {
+    display: none;
+}
