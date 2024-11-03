@@ -1,0 +1,14 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: GitHub Pages Pelican Build Action
+        uses: nelsonjchen/gh-pages-pelican-action@0.2.0
