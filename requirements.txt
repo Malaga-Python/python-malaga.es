@@ -7,9 +7,7 @@
 anyio==4.6.2.post1
     # via watchfiles
 beautifulsoup4==4.12.3
-    # via
-    #   -r requirements.in
-    #   pelican-seo
+    # via -r requirements.in
 blinker==1.8.2
     # via pelican
 docutils==0.21.2
@@ -29,10 +27,6 @@ mdurl==0.1.2
 ordered-set==4.1.0
     # via pelican
 pelican==4.10.1
-    # via
-    #   -r requirements.in
-    #   pelican-seo
-pelican-seo==1.2.2
     # via -r requirements.in
 pygments==2.18.0
     # via
