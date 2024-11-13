@@ -23,3 +23,8 @@ nosotros a través del enlace superior.
 .. image:: /images/lambda.png
     :target: https://www.lambdamotive.com/
     :alt: Lambda3
+
+.. image:: /images/plytix.png
+    :target: https://www.plytix.com/
+    :alt: Plytix
+    :class: margin-left-20
